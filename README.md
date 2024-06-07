@@ -1,30 +1,75 @@
-# Criando-um-Relat-rio-de-Vendas-Elegante-com-Power-BI
-O projeto no Power BI Desktop com base na amostra Financials fornecida pela Microsoft:
+# Criando-um-Relatório-de-Vendas-Elegante-com-Power-BI
 
-1. **Baixe e instale o Power BI Desktop**: Se você ainda não tem o Power BI Desktop instalado, você pode baixá-lo gratuitamente no site oficial da Microsoft.
+Criação de um relatório de vendas elegante com Power BI, organizando-o em módulos e fornecendo exemplos de código.
 
-2. **Baixe a amostra Financials**: A Microsoft fornece uma série de amostras de dados que você pode usar para praticar a criação de relatórios. Você pode encontrar a amostra Financials no site oficial da Microsoft ou no GitHub.
+### Módulo 1: Preparação do Ambiente Power BI
+**Objetivo**: Preparar o ambiente Power BI para desenvolvimento.
 
-3. **Carregue os dados no Power BI Desktop**: Depois de baixar a amostra Financials, você pode carregar os dados no Power BI Desktop. Para fazer isso, clique em "Obter Dados" no menu principal e siga as instruções.
+1. **Instalação do Power BI Desktop**
+   - Acesse o site oficial da Microsoft.
+   - Siga as instruções para baixar e instalar a versão mais recente do Power BI Desktop.
 
-4. **Crie a estrutura do relatório**: Com os dados carregados, agora você pode começar a criar a estrutura do seu relatório. Isso inclui a criação de botões de navegação, segmentadores de dados e gráficos.
+2. **Obtenção da Amostra Financials**
+   - Baixe a amostra Financials diretamente do site da Microsoft ou através do repositório no GitHub.
+   - A amostra contém dados financeiros que simulam um cenário empresarial real.
 
-5. **Adicione visuais ao relatório**: O Power BI Desktop permite que você crie uma variedade de visuais diferentes para exibir seus dados. Você pode adicionar gráficos, tabelas, mapas e muito mais.
+### Módulo 2: Carregamento e Preparação dos Dados
+**Objetivo**: Carregar e preparar os dados para análise.
 
-6. **Crie a segunda página do relatório**: Depois de terminar a primeira página do relatório, você pode criar a segunda página. Lembre-se de manter a consistência no design e na estrutura do relatório.
+```markdown
+1. **Carregamento dos Dados**
+   - Abra o Power BI Desktop.
+   - Clique em "Obter Dados" e selecione a amostra Financials baixada.
+   - Siga as instruções para importar os dados para o seu projeto.
+```
 
-7. **Publique o relatório no Power BI Service**: Depois de terminar o relatório, você pode publicá-lo no Power BI Service. Isso permitirá que outras pessoas vejam e interajam com o seu relatório.
+### Módulo 3: Design e Estruturação do Relatório
+**Objetivo**: Criar uma estrutura lógica e visualmente atraente para o relatório.
 
-Criar a estrutura do seu relatório no Power BI:
+```markdown
+1. **Definição da Estrutura do Relatório**
+   - Determine quais informações são cruciais para o relatório.
+   - Organize os dados de forma que facilitem a compreensão e a análise.
 
-1. **Estrutura Definida**: Antes de começar a criar o relatório, é importante definir a estrutura do mesmo. Isso inclui decidir quais dados serão exibidos, como serão organizados e quais visuais serão usados.
+2. **Criação de Botões de Navegação**
+   - Utilize botões para criar uma navegação intuitiva entre as páginas do relatório.
+   - Personalize os botões com ícones e cores que representem suas funções.
 
-2. **Botões de Navegação**: Os botões de navegação são uma ótima maneira de melhorar a navegabilidade do seu relatório. Eles permitem que os usuários alternem facilmente entre diferentes páginas ou visuais.
+3. **Implementação de Segmentadores de Dados**
+   - Adicione segmentadores para permitir a filtragem dinâmica dos dados.
+   - Associe imagens aos botões para melhorar a experiência do usuário.
+```
 
-3. **Segmentadores Utilizados e Botões com Imagem Associado**: Os segmentadores são uma ferramenta útil para filtrar dados em um relatório. Você pode associar uma imagem a um botão para torná-lo mais atraente ou para indicar sua função.
+### Módulo 4: Visualização de Dados
+**Objetivo**: Adicionar e configurar visuais para representar os dados de forma eficaz.
 
-4. **Utilize os Indicadores e Botões para Selecionar Diferentes Visuais**: Os indicadores e botões podem ser usados para alternar entre diferentes visuais. Por exemplo, você pode ter um botão que alterna entre um gráfico de barras e um gráfico de linhas.
+```markdown
+1. **Adição de Visuais**
+   - Explore os diferentes tipos de visuais disponíveis no Power BI.
+   - Insira gráficos, tabelas e mapas que melhor representem os dados.
 
-5. **Submeta seu projeto**: Finalmente, você pode submeter seu projeto através do link fornecido no GitHub.
+2. **Criação de Páginas Adicionais**
+   - Desenvolva páginas adicionais para detalhar aspectos específicos dos dados.
+   - Mantenha a consistência visual e estrutural em todo o relatório.
+```
 
-https://github.com/julianazanelatto/power_bi_analyst
+### Módulo 5: Publicação e Compartilhamento do Relatório
+**Objetivo**: Publicar o relatório para que outros possam acessá-lo e interagir.
+
+```markdown
+1. **Publicação no Power BI Service**
+   - Finalize o design e a estrutura do seu relatório.
+   - Clique em "Publicar" para enviar seu relatório para o Power BI Service.
+   - Compartilhe o relatório com sua equipe ou público-alvo.
+```
+
+### Exemplo de Código: Adicionando um Gráfico de Barras
+```powerbi
+// Exemplo simplificado de como adicionar um gráfico de barras no Power BI Desktop
+1. Selecione a opção "Gráfico de Barras" no painel "Visualizações".
+2. Arraste o campo desejado para o eixo "Eixo" do gráfico.
+3. Arraste o campo de valores para a área "Valores" do gráfico.
+4. Ajuste as propriedades do gráfico conforme necessário para melhorar a visualização.
+```
+
+Espero que essas instruções detalhadas e o exemplo de código ajude a quem precisar criar um relatório de vendas elegante e informativo no Power BI.
